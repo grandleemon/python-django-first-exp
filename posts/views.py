@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def getPost(request): 
     return HttpResponse('Getting Post')
+
+def setPost(request): 
+    return HttpResponse('Setting Post')
